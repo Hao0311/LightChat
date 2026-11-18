@@ -1,0 +1,28 @@
+# 构建中间产物
+android/_toolchain/
+android/LightChat/build/
+android/LightChat/app/build/
+android/LightChat/.gradle/
+android/.gradle/
+android/dist/
+
+# 本机路径
+android/LightChat/local.properties
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python / 杂项
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+
+# 运行时配置与本机说明
+config.json
+AGENTS.md
+
